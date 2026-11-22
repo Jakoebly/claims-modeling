@@ -12,3 +12,6 @@ packages = ["claims"]
 
 [tool.setuptools.package-dir]
 claims = "src"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
